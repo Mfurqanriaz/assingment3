@@ -1,0 +1,388 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+
+}
+ 
+.dropdown{
+    margin: 0 auto ;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0 10px 15px cadetblue;
+    margin-top: 0px    ;
+    position: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+}
+.logo{
+    padding: 13px 0 0 170px;
+    width: 170px;
+    height: auto;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+nav ul li{
+    background-color: white;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul, li, a{
+    display: block  ;
+    padding: 0 15px;
+    color: wheat;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 15px;
+    color: black;
+}
+
+nav li:hover{
+    background:#3385ff;
+    
+}
+
+
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover>ul{
+    display: block;
+}
+
+
+nav ul li li{
+    width: 100px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+.topbar{
+    background-color:#3385ff;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fb{
+    position: absolute;
+    top: 18px;
+    left: 50px;
+}
+
+.wa{
+    position: absolute;
+    top: 18px;
+    left: 80px;
+}
+ .ins{
+    position: absolute;
+    top: 18px;
+    left: 110px;
+}
+
+
+.b1{
+    position: absolute;
+    top: 10px;
+    right: 300px;
+}
+.b2{
+    position: absolute;
+    top: 10px;
+    right: 200px;
+
+}
+.b3{
+    position: absolute;
+    top: 10px;
+    right: 90px;
+
+}
+
+
+.poster{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+  
+}
+
+.newsbar{
+
+    background-color: #3385ff;
+    color: white;
+    width: 1000px;
+    margin-left: 250px;
+    margin-top: -3px;
+}
+
+.intro{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: grey;
+    margin-top: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+
+.figure{
+    width:100%;
+    height: 300px;
+    background-color: #3385ff;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+    
+
+}
+
+.dish{
+    position: absolute;
+    top: 1200px;
+    left: 300px;
+
+}
+
+.group{
+    position: absolute;
+    top: 1200px;
+    left: 700px;
+}
+
+.scope{
+    position:absolute;
+    top: 1200px;
+    left: 900px;
+}
+
+.book{
+    position: absolute;
+    top: 1200px;
+    left: 1200px;
+}
+
+.sadqah{
+    display: inline-block;
+    background-color:white;
+    height: 200px;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.welfare{
+    display: inline-block;
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.medical{
+    display: inline-block;
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.dastarkwan{
+    display: inline-block;
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.roplant{
+    display: inline-block;
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.education{
+    display: inline-block;
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.donation{
+    position: absolute;
+    top: 1600px;
+    left: 340px;
+}
+
+.wel{
+    position: absolute;
+    top: 1600px;
+    left: 750px;
+}
+
+.scope{
+    position: absolute;
+    top: 1600px;
+    left: 1150px;
+}
+
+.spoon{
+    position: absolute;
+    top: 1900px;
+    left: 340px;
+}
+
+.water{
+    position: absolute;
+    top: 1900px;
+    left: 750px;
+}
+
+
+.study{
+    position: absolute;
+    top: 1900px;
+    left: 1150px;
+}
+
+.mission{
+    width: 100%;
+    height: 900px;
+    background-color:white;
+    margin-top: 100px;
+}
+.project{
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    color:  #3385ff;
+    margin-top: 10px;
+    margin-left: 150px;
+    
+    
+}
+
+.hepatitts{
+    position: relative;
+    width: 350px;
+    height: 70px;
+    background-color: #f0f5f5;
+    border: 1px;
+    top: 100px;
+    left: 150px;
+}
+
+.housing{
+    position: relative;
+    width: 350px;
+    height: 70px;
+    background-color: #f0f5f5;
+    border: 1px;
+    top: 30px;
+    left: 600px;
+}
+.it{
+    position: relative;
+    width: 350px;
+    height: 70px;
+    background-color: #f0f5f5;
+    border: 1px;
+    top: 90px;
+    left: 150px;
+}
+
+.tharpakar{
+    position: relative;
+    width: 350px;
+    height: 70px;
+    background-color: #f0f5f5;
+    border: 1px;
+    top: 20px;
+    left: 600px;
+}
+
+.heart{
+    position: relative;
+    top:8px;
+    left:20px;
+    
+}
+
+.house{
+    position: relative;
+    top: 8px;
+    left: 20px;
+    
+}
+
+.laptop{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.desert{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.gallery{
+    position: relative;
+    font-size: 1em;
+    font-weight: bold;
+    top: 150px;
+}
+
+.image{
+    margin-top: 200px;
+    margin-left: 400px;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color:#262626;
+}
+
+.contact{
+    
+    color: lightgrey;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
